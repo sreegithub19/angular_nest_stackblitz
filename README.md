@@ -7,6 +7,8 @@ Deployable on Heroku, Render, Google App Engine (GAE) and other hosting services
 [![Build](https://github.com/mugifly/angular-nest/actions/workflows/build.yml/badge.svg?event=push)](https://github.com/mugifly/angular-nest/actions/workflows/build.yml)
 
 ---
+App link: https://mugiflyangularnestkwtvtl-5crd--3000--7259293c.local-credentialless.webcontainer.io
+Command to run: npm install && npm run dev
 
 ## Key Elements
 
