@@ -22,10 +22,7 @@
     "nodemon": "^2.0.15",
     "prettier": "^2.3.2"
   },
-  "workspaces": [
-    "client",
-    "server"
-  ],
+  "workspaces": ["client", "server"],
   "dependencies": {
     "cross-env": "^7.0.3",
     "json2yaml": "^1.1.0",

@@ -26,7 +26,7 @@ class DummyPageGenerator {
   <body>
     <p>
       This port (3000) is the API server port by NestJS.<br />
-      Instead, you should open the
+      Instead, you should be opening the
       <a id="correctUrlLink">Angular development server port (4200)</a>.
     </p>
 
