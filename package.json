@@ -29,6 +29,7 @@
   ],
   "dependencies": {
     "cross-env": "^7.0.3",
+    "jskick": "^0.9.93",
     "json2yaml": "^1.1.0",
     "ng-openapi-gen": "^0.21.2",
     "node-fetch": "^2.6.7",
