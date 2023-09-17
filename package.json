@@ -17,16 +17,21 @@
     "nest": "npx --workspace=server nest"
   },
   "devDependencies": {
+    "@types/scriptjs": "^0.0.2",
     "concurrently": "^7.1.0",
     "mkdirp": "^3.0.1",
     "nodemon": "^2.0.15",
     "prettier": "^2.3.2"
   },
-  "workspaces": ["client", "server"],
+  "workspaces": [
+    "client",
+    "server"
+  ],
   "dependencies": {
     "cross-env": "^7.0.3",
     "json2yaml": "^1.1.0",
     "ng-openapi-gen": "^0.21.2",
-    "node-fetch": "^2.6.7"
+    "node-fetch": "^2.6.7",
+    "scriptjs": "^2.5.9"
   }
 }
