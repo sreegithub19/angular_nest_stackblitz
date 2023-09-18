@@ -35,11 +35,6 @@ export class AppController {
     return this.appService.sass_();
   }
 
-  @Get('/codepen')
-  codepen(): string {
-    return this.appService.codepen();
-  }
-
   @Get('/tilt_maze')
   tilt_maze(): string {
     return this.appService.tilt_maze();

@@ -3,7 +3,9 @@ import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 import { AppModule } from './app.module';
 
 async function bootstrap() {
-  const app = await NestFactory.create(AppModule);
+  const app = await NestFactory.create(AppModule, {
+    cors: true,
+  });
 
   // Change the URL prefix to `/api` on backend
   app.setGlobalPrefix('api');
@@ -15,6 +17,16 @@ async function bootstrap() {
     // Enable Swagger UI for development env
     SwaggerModule.setup('api/docs', app, doc);
   }
+
+  const options = {
+    origin: '*',
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
+    preflightContinue: false,
+    optionsSuccessStatus: 204,
+    credentials: true,
+  };
+
+  app.enableCors(options);
 
   // Start the server
   await app.listen(process.env.PORT || 3000);
