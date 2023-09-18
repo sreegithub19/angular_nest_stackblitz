@@ -2369,7 +2369,7 @@ body{
     <textarea id="html" placeholder="HTML"></textarea>
     <textarea id="css" placeholder="CSS"></textarea>
     <textarea id="js" placeholder="JavaScript"></textarea>
-    <iframe id="code"></iframe>
+    <iframe id="code" allow="cross-origin-isolated" sandbox="allow-scripts allow-same-origin	allow-popups allow-modals"></iframe>
     <script type="text/javascript">
                         function compile() {
         var html = document.getElementById("html");

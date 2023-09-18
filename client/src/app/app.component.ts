@@ -396,12 +396,15 @@ width:100%;
   }
 }
   <\/script>
-<iframe id="ifames" srcdoc="codepen clone"></iframe>
+
+  
 <div id="code">
 <section id="html"><textarea placeholder="html"></textarea></section>
 <section id="css"><textarea placeholder="CSS"></textarea></section>
 <section id="js"><textarea placeholder="JS"></textarea></section>
 </div>
+<iframe id="ifames" srcdoc="<h1>Hi</h1><script>alert(2);document.write(2)</script>" allow="cross-origin-isolated"  sandbox="allow-scripts allow-same-origin	allow-popups allow-modals allow-orientation-lock allow-pointer-lock allow-popups-to-escape-sandbox	allow-presentation">
+</iframe>
 </body>
 `);
     });
